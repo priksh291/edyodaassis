@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+    margin-top: -10px;
+}
+.logo{
+    position: relative;
+    margin-left: 80px;
+    font-size: 38px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.14px;
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(122deg, #0096FF 42.14%, #0048FF 96.70%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    gap: 64px;
+    
+}
+.navbar-menu>div>li{
+    color: #000;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.navbar-signup{
+    display: flex;
+    list-style: none;
+    gap: 64px;
+    margin-right: 80px;
+    margin-top: 25.5px;
+    line-height: normal;
+    
+}
+.navbar-signup>li>button{
+    display: flex;
+   
+height: 10px;
+padding: 14px 25px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+color: white;
+font-family: Raleway;
+font-size: 13px;
+border-bottom: #0048FF;
+font-weight: 700;
+border-color: #0048FF;
+box-shadow: none;
+cursor: pointer;
+    border-radius: 52px;
+background: linear-gradient(224deg, #0048FF 0%, #0096FF 100%);
+
+}
+.navbar-signup>li{
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+}
+.icon{
+    cursor: pointer;
+    margin-left: 12px;
+}

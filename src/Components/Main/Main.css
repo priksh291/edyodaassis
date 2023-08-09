@@ -1,0 +1,92 @@
+.body{
+    width: 1519px; 
+height: 850px; 
+flex-shrink: 0;
+    background: url('../../assets/background.png'), lightgray 50% / cover no-repeat;
+   
+     /* height: 100vh;
+    width: 100vw; */
+    background-position: center;
+    background-size: cover;
+   
+}
+.details{
+    display: flex;
+    position: relative;
+    margin-top: -10px;
+    margin-left: 144px;
+    margin-right: 690px;
+}
+.details>div{
+    color: white;
+    position: absolute;
+    margin-top: 45px;
+    
+}
+.details>div>span{
+    font-family: Raleway;
+    font-weight: 600;
+    letter-spacing: -0.56px;
+    font-size: 49px;
+    line-height: 125%;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.details>div>span>:nth-child(1){
+    font-family: Roboto;
+    font-size: 51px;
+ 
+    font-weight: 600;
+    letter-spacing: -0.64px;
+    text-decoration: line-through;
+    text-decoration-color: red;
+
+
+}
+.price{
+    color: #0096FF;
+    font-family: Roboto;
+    font-size: 51px;
+    font-weight: 600px;
+    line-height: 125%;
+    letter-spacing: -0.64px;
+}
+.details>div>ul{
+    display: flex;
+    margin-top: 48px;
+    margin-left: -35px;
+    flex-direction: column;
+    list-style: none;
+    gap: 48px;
+}
+.details>div>ul>li{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.96px;
+}
+.details>div>ul>li>div {
+    color: #0096FF;
+    font-weight: 600;
+}
+.details>div>ul>li>img{
+    width: 40px;
+    height: 40px;
+    margin-right: 60px;
+}
+.live>img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-right: 60px;
+}
+.live>div{
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-top: -29px;
+    margin-left: 8px;
+}
