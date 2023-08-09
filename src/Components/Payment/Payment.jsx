@@ -3,7 +3,7 @@ import '../../Components/Payment/Payment.css'
 import radio from '../../assets/radio.svg'
 import select from '../../assets/select.svg'
 import offer from '../../assets/offer.svg'
-import Payments from '../../assets/Payments.png'
+import Payments from '../../assets/payments.png'
 import unselect from '../../assets/unselect.png'
 
 const Payment = () => {
